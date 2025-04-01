@@ -1,0 +1,20 @@
+[debug] [2024-11-27T07:05:55.410Z] ----------------------------------------------------------------------
+[debug] [2024-11-27T07:05:55.413Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prapt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list --json
+[debug] [2024-11-27T07:05:55.414Z] CLI Version:   13.27.0
+[debug] [2024-11-27T07:05:55.414Z] Platform:      win32
+[debug] [2024-11-27T07:05:55.414Z] Node Version:  v20.18.0
+[debug] [2024-11-27T07:05:55.414Z] Time:          Wed Nov 27 2024 12:35:55 GMT+0530 (India Standard Time)
+[debug] [2024-11-27T07:05:55.415Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-27T07:05:55.424Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-27T07:05:55.425Z] > authorizing via signed-in user (12pritikchaudhari@gmail.com)
+[debug] [2024-11-27T07:05:55.431Z] Checked if tokens are valid: true, expires at: 1732694531189
+[debug] [2024-11-27T07:05:55.432Z] Checked if tokens are valid: true, expires at: 1732694531189
+[debug] [2024-11-27T07:05:55.436Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2024-11-27T07:05:55.531Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=1000, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-11-27T07:05:55.531Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2024-11-27T07:05:55.533Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at RetryOperation._fn (C:\Users\prapt\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:261:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
